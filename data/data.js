@@ -1,7 +1,7 @@
 // quests[0].choices[0].description; ==> 'negotiate with them'
 
 //  should this be const questData = instead of monsters?
-const questData = {
+const monsters = {
     id: 'monsters',
     title: 'A Den of Monsters',
     map: {

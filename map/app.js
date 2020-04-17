@@ -6,13 +6,14 @@ import makeListItemLink from './make-list-item-link.js';
 // quests.forEach((quest) => {
 //     const li = makeListItemLink(quest);
 
-//     URL.appendChild(li);
-const ul = document.getElementById('list');
+// //     URL.appendChild(li);
 
-const user = JSON.parse(localStorage.getItem('USER'));
+//* un note const ul and const user below
+// const ul = document.getElementById('list');
+
+// const user = JSON.parse(localStorage.getItem('USER'));
 
 quests.forEach((quest) => {
-    const quest = quests[i];
     const li = makeListItemLink(quest);
     URL.appendChild(li);
 });

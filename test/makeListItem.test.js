@@ -3,7 +3,7 @@ import makeListItemLink from '../map/make-list-item-link.js';
 const test = QUnit.test;
 
 test('make a user object in plain JS from a formData object', function(assert) {
-    const monsters = {
+    const questData = {
         id: 'monsters',
         title: 'A Den of Monsters',
         map: {
